@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html lang="en">
 <head>
-    <meta charset='UTF-8'/>
-    <meta content='width=device-width, initial-scale=1' name='viewport'/>
-    <b:include data='blog' name='all-head-content'/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
-    <title><data:blog.pageTitle/></title>
-    <meta content='Looking for the Best SSC CGL Coaching in India? Sure 60 Gurukul offers expert guidance, top faculty, and the best training for SSC CGL 2025, Defence, and Railway exams.' name='description'/>
+    <title>Sure 60 Gurukul | Best SSC CGL Coaching</title>
+    <meta name="description" content="Looking for the Best SSC CGL Coaching in India? Sure 60 Gurukul offers expert guidance, top faculty, and the best training for SSC CGL 2025, Defence, and Railway exams."/>
     
-    <link href='https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&amp;family=Poppins:wght@400;600&amp;family=Roboto:wght@400;500;600&amp;display=swap' rel='stylesheet'/>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'/>
-    
-    <link href='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css' rel='stylesheet'/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&amp;family=Poppins:wght@400;600&amp;family=Roboto:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet"/>
 
-    <b:skin><![CDATA[
+    <style>
     /*-----------------------------------------------
-    Blogger Template Style
-    Name:     Sure 60 Gurukul Complete with Exams & Facilities
+     Template Style
+     Name:    Sure 60 Gurukul Complete with Exams & Facilities
     ----------------------------------------------- */
     :root {
         --primary: #0270B7;
@@ -48,7 +46,7 @@
     .nav-menu a:hover { color: var(--accent); }
     
     /* Dropdown */
-    .dropdown { position: absolute; top: 100%; left: 0; background: var(--accent); width: 220px; opacity: 0; visibility: hidden; transition: 0.3s; transform: translateY(10px); }
+    .dropdown { position: absolute; top: 100%; left: 0; background: var(--accent); width: 220px; opacity: 0; visibility: hidden; transition: 0.3s; transform: translateY(10px); z-index: 2000; }
     .nav-menu li:hover .dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
     .dropdown li { border-bottom: 1px solid rgba(255,255,255,0.2); }
     .dropdown a { color: #fff; font-size: 14px; padding: 12px 15px; }
@@ -125,878 +123,200 @@
         .top-bar { flex-direction: column; gap: 10px; }
         .facilities-grid { grid-template-columns: 1fr; }
     }
-    ]]></b:skin>
+    </style>
 </head>
-
 <body>
 
-    <div class='top-bar'>
-        <div class='container' style='display: flex; justify-content: space-between; width: 100%;'>
-            <div class='social-icons'>
-                <a href='#' style='color: white; margin-right: 15px;'><i class='fa-brands fa-facebook'/></a>
-                <a href='#' style='color: white; margin-right: 15px;'><i class='fa-brands fa-instagram'/></a>
-                <a href='#' style='color: white;'><i class='fa-brands fa-youtube'/></a>
+    <div class="top-bar">
+        <div class="container" style="display: flex; justify-content: space-between; width: 100%;">
+            <div class="social-icons">
+                <a href="#" style="color: white; margin-right: 15px;"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" style="color: white; margin-right: 15px;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" style="color: white;"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <div class='top-buttons'>
-                <a class='btn' href='#'>Login/Register</a>
-                <a class='btn' href='#'>Download App</a>
+            <div class="top-buttons">
+                <a class="btn" href="#">Login/Register</a>
+                <a class="btn" href="#">Download App</a>
             </div>
         </div>
     </div>
 
-    <header class='main-header'>
-        <div class='container nav-container'>
-            <a class='logo' href='/'>
-                <img alt='Sure 60 Gurukul' src='https://sure60gurukul.com/wp-content/uploads/2025/03/Group-1-2.png'/>
+    <header class="main-header">
+        <div class="container nav-container">
+            <a class="logo" href="/">
+                <img alt="Sure 60 Gurukul" src="https://sure60gurukul.com/wp-content/uploads/2025/03/Group-1-2.png"/>
             </a>
-            <ul class='nav-menu'>
-                <li><a href='/'>Home</a></li>
-                <li><a href='#'>About Us <i class='fa fa-caret-down'/></a>
-                    <ul class='dropdown'>
-                        <li><a href='/p/about-us.html'>About Us</a></li>
-                        <li><a href='/p/chairmans-message.html'>Chairman&#39;s Message</a></li>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About Us <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#" target="_blank">About Us</a></li>
+                        <li><a href="#" target="_blank">Chairman's Message</a></li>
                     </ul>
                 </li>
-                <li><a href='#'>Branches <i class='fa fa-caret-down'/></a>
-                    <ul class='dropdown'>
-                        <li><a href='/p/foundation-batch.html'>Foundation Batch</a></li>
-                        <li><a href='/p/selection-batch.html'>Selection Batch</a></li>
+                <li><a href="#">Branches <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#" target="_blank">Foundation Batch</a></li>
+                        <li><a href="#" target="_blank">Selection Batch</a></li>
                     </ul>
                 </li>
-                <li><a href='#'>Courses <i class='fa fa-caret-down'/></a>
-                    <ul class='dropdown'>
-                        <li><a href='/p/ssc-coaching.html'>SSC Coaching</a></li>
-                        <li><a href='/p/defence-coaching.html'>Defence Coaching</a></li>
-                        <li><a href='/p/railway-coaching.html'>Railway Coaching</a></li>
-                        <li><a href='/p/state-exams.html'>State Exams</a></li>
+                <li><a href="#">Courses <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#" target="_blank">SSC Coaching</a></li>
+                        <li><a href="#" target="_blank">Defence Coaching</a></li>
+                        <li><a href="#" target="_blank">Railway Coaching</a></li>
+                        <li><a href="#" target="_blank">State Exams</a></li>
                     </ul>
                 </li>
-                <li><a href='#'>Info Center <i class='fa fa-caret-down'/></a>
-                    <ul class='dropdown'>
-                        <li><a href='/p/fee-details.html'>Fee Details</a></li>
-                        <li><a href='/p/upcoming-batches.html'>Upcoming Batches</a></li>
-                        <li><a href='/p/photo-gallery.html'>Photo Gallery</a></li>
+                <li><a href="#">Info Center <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#" target="_blank">Fee Details</a></li>
+                        <li><a href="#" target="_blank">Upcoming Batches</a></li>
+                        <li><a href="#" target="_blank">Photo Gallery</a></li>
                     </ul>
                 </li>
-                <li><a href='/p/contact-us.html'>Contact Us</a></li>
+                <li><a href="#" target="_blank">Contact Us</a></li>
             </ul>
         </div>
     </header>
 
-    <div class='notice-bar'>
-        <marquee>Preparation for: SSC | CGL | CPO | CHSL | STENO | DP | UPP | DSSSB | CET &amp; OTHER STATE EXAMS. New Foundation Batch Starts 11th August 2026. Call: +91 7289003333</marquee>
+    <div class="notice-bar">
+        <marquee>Preparation for: SSC | CGL | CPO | CHSL | STENO | DP | UPP | DSSSB | CET &amp; OTHER STATE EXAMS. New Foundation Batch Starts 15th Feb 2026. Call: +91 7289003333</marquee>
     </div>
 
-    <b:section class='main' id='main-content' showaddelement='yes'>
-      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
-        <b:widget-settings>
-          <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='showShareButtons'>true</b:widget-setting>
-          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='showAuthor'>false</b:widget-setting>
-          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='timestampLabel'/>
-          <b:widget-setting name='reactionsLabel'/>
-          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-          <b:widget-setting name='showLabels'>true</b:widget-setting>
-          <b:widget-setting name='showLocation'>true</b:widget-setting>
-          <b:widget-setting name='postLabelsLabel'/>
-          <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-          <b:widget-setting name='postsPerAd'>3</b:widget-setting>
-          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
-          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='showInlineAds'>true</b:widget-setting>
-          <b:widget-setting name='showReactions'>false</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main' var='this'>
-  <div class='blog-posts hfeed container'>
-    <b:loop index='i' values='data:posts' var='post'>
-      <b:include data='post' name='postCommentsAndAd'/>
-    </b:loop>
-  </div>
-  <b:include cond='data:view.isMultipleItems' name='postPagination'/>
-  <b:include name='feedLinks'/>
-  <b:if cond='data:blog.isGoogleEverywhereLinkTooltipEnabled'>
-    <b:include name='tooltipCss'/>
-  </b:if>
-</b:includable>
-        <b:includable id='aboutPostAuthor'>
-  <div class='author-name'>
-    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
-      <span>
-        <data:post.author.name/>
-      </span>
-    </a>
-  </div>
-  <div>
-    <span class='author-desc'>
-      <data:post.author.aboutMe/>
-    </span>
-  </div>
-</b:includable>
-        <b:includable id='addComments'>
-  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
-    <b:message name='messages.postAComment'/>
-  </a>
-</b:includable>
-        <b:includable id='blogThisShare'>
-  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
-    <b:include name='platformShare'/>
-  </b:with>
-</b:includable>
-        <b:includable id='bylineByName' var='byline'>
-  <b:switch var='data:byline.name'>
-  <b:case value='share'/>
-    <b:include cond='data:post.shareUrl' name='postShareButtons'/>
-  <b:case value='comments'/>
-    <b:include cond='data:post.allowComments' name='postCommentsLink'/>
-  <b:case value='location'/>
-    <b:include cond='data:post.location' name='postLocation'/>
-  <b:case value='timestamp'/>
-    <b:include cond='not data:view.isPage' name='postTimestamp'/>
-  <b:case value='author'/>
-    <b:include name='postAuthor'/>
-  <b:case value='labels'/>
-    <b:include cond='data:post.labels' name='postLabels'/>
-  <b:case value='icons'/>
-    <b:include cond='data:post.emailPostUrl' name='emailPostIcon'/>
-  </b:switch>
-</b:includable>
-        <b:includable id='bylineRegion' var='regionItems'>
-  <b:loop values='data:regionItems' var='byline'>
-    <b:include data='byline' name='bylineByName'/>
-  </b:loop>
-</b:includable>
-        <b:includable id='commentAuthorAvatar'>
-  <div class='avatar-image-container'>
-    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
-  </div>
-</b:includable>
-        <b:includable id='commentDeleteIcon' var='comment'>
-  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
-    <b:if cond='data:showCmtPopup'>
-      <div class='goog-toggle-button'>
-        <div class='goog-inline-block comment-action-icon'/>
-      </div>
-    <b:else/>
-      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
-        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
-      </a>
-    </b:if>
-  </span>
-</b:includable>
-        <b:includable id='commentForm' var='post'>
-  <div class='comment-form'>
-    <a name='comment-form'/>
-    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
-    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
-      <p><data:this.messages.blogComment/></p>
-    </b:if>
-    <b:include data='post' name='commentFormIframeSrc'/>
-    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
-    <data:post.cmtfpIframe/>
-    <script type='text/javascript'>
-      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
-    </script>
-  </div>
-</b:includable>
-        <b:includable id='commentFormIframeSrc' var='post'>
-  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
-</b:includable>
-        <b:includable id='commentItem' var='comment'>
-  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
-    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
-
-    <div class='comment-block'>
-      <div class='comment-author'>
-        <b:if cond='data:comment.authorUrl'>
-          <b:message name='messages.authorSaidWithLink'>
-            <b:param expr:value='data:comment.author' name='authorName'/>
-            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
-          </b:message>
-        <b:else/>
-          <b:message name='messages.authorSaid'>
-            <b:param expr:value='data:comment.author' name='authorName'/>
-          </b:message>
-        </b:if>
-      </div>
-      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
-        <data:comment.body/>
-      </div>
-      <div class='comment-footer'>
-        <span class='comment-timestamp'>
-          <a expr:href='data:comment.url' title='comment permalink'>
-            <data:comment.timestamp/>
-          </a>
-          <b:include data='comment' name='commentDeleteIcon'/>
-        </span>
-      </div>
-    </div>
-  </div>
-</b:includable>
-        <b:includable id='commentList' var='comments'>
-  <div id='comments-block'>
-    <b:loop values='data:comments' var='comment'>
-      <b:include data='comment' name='commentItem'/>
-    </b:loop>
-  </div>
-</b:includable>
-        <b:includable id='commentPicker' var='post'>
-  <b:if cond='data:post.showThreadedComments'>
-    <b:include data='post' name='threadedComments'/>
-  <b:else/>
-    <b:include data='post' name='comments'/>
-  </b:if>
-</b:includable>
-        <b:includable id='comments' var='post'>
-  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
-    <a name='comments'/>
-    <b:if cond='data:post.allowComments'>
-
-      <b:include name='commentsTitle'/>
-
-      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
-        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
-      </div>
-
-      <b:if cond='data:post.commentPagingRequired'>
-        <div class='paging-control-container'>
-          <b:if cond='data:post.hasOlderLinks'>
-            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
-              <data:messages.oldest/>
-            </a>
-            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
-              <data:messages.older/>
-            </a>
-          </b:if>
-
-          <span class='comment-range-text'>
-            <data:post.commentRangeText/>
-          </span>
-
-          <b:if cond='data:post.hasNewerLinks'>
-            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
-              <data:messages.newer/>
-            </a>
-            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
-              <data:messages.newest/>
-            </a>
-          </b:if>
+    <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img alt="Slide 1" src="https://sure60gurukul.com/wp-content/uploads/2026/06/gurukul-stars-of-cpo-2024.png.webp"/></div>
+            <div class="swiper-slide"><img alt="Slide 2" src="https://sure60gurukul.com/wp-content/uploads/2025/06/00002.jpg"/></div>
+            <div class="swiper-slide"><img alt="Slide 3" src="https://sure60gurukul.com/wp-content/uploads/2025/06/00003.jpg"/></div>
         </div>
-      </b:if>
-
-      <div class='footer'>
-        <b:if cond='data:post.embedCommentForm'>
-          <b:if cond='data:post.allowNewComments'>
-            <b:include data='post' name='commentForm'/>
-          <b:else/>
-            <data:post.noNewCommentsText/>
-          </b:if>
-        <b:else/>
-          <b:if cond='data:post.allowComments'>
-            <b:include data='post' name='addComments'/>
-          </b:if>
-        </b:if>
-      </div>
-    </b:if>
-    <b:if cond='data:showCmtPopup'>
-      <div id='comment-popup'>
-        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
-        </iframe>
-      </div>
-    </b:if>
-  </section>
-</b:includable>
-        <b:includable id='commentsLink'>
-  <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
-    <b:if cond='data:post.numberOfComments &gt; 0'>
-      <b:message name='messages.numberOfComments'>
-        <b:param expr:value='data:post.numberOfComments' name='numComments'/>
-      </b:message>
-    <b:else/>
-      <data:messages.postAComment/>
-    </b:if>
-  </a>
-</b:includable>
-        <b:includable id='commentsLinkIframe'>
-  </b:includable>
-        <b:includable id='commentsTitle'>
-  <h3 class='title'><data:messages.comments/></h3>
-</b:includable>
-        <b:includable id='defaultAdUnit'>
-  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:style='data:style ?: &quot;display: block;&quot;'>
-    <b:attr cond='not data:blog.analytics4' expr:value='data:blog.analyticsAccountNumber' name='data-analytics-uacct'/>
-  </ins>
-  <script>
-   (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</b:includable>
-        <b:includable id='emailPostIcon'>
-  <span class='byline post-icons'>
-    <span class='item-action'>
-      <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
-        <b:include data='{ iconClass: &quot;touch-icon sharing-icon&quot; }' name='emailIcon'/>
-      </a>
-    </span>
-  </span>
-</b:includable>
-        <b:includable id='facebookShare'>
-  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' var='onclick'>
-    <b:include name='platformShare'/>
-  </b:with>
-</b:includable>
-        <b:includable id='feedLinks'>
-  <b:if cond='!data:view.isPost'> <b:if cond='data:feedLinks'>
-      <div class='blog-feeds'>
-        <b:include data='feedLinks' name='feedLinksBody'/>
-      </div>
-    </b:if>
-  <b:else/> <div class='post-feeds'>
-      <b:loop values='data:posts' var='post'>
-        <b:if cond='data:post.allowComments and data:post.feedLinks'>
-          <b:include data='post.feedLinks' name='feedLinksBody'/>
-        </b:if>
-      </b:loop>
-    </div>
-  </b:if>
-</b:includable>
-        <b:includable id='feedLinksBody' var='links'>
-  <div class='feed-links'>
-  <data:messages.subscribeTo/>
-  <b:loop values='data:links' var='f'>
-     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
-  </b:loop>
-  </div>
-</b:includable>
-        <b:includable id='footerBylines'>
-  <b:if cond='data:widgets.Blog.first.footerBylines'>
-    <b:loop index='i' values='data:widgets.Blog.first.footerBylines' var='region'>
-      <b:if cond='not data:region.items.empty'>
-        <div expr:class='&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)'>
-          <b:with value='&quot;footer-&quot; + (data:i + 1)' var='regionName'>
-            <b:include data='region.items' name='bylineRegion'/>
-          </b:with>
-        </div>
-      </b:if>
-    </b:loop>
-  </b:if>
-</b:includable>
-        <b:includable id='googlePlusShare'>
-</b:includable>
-        <b:includable id='headerByline'>
-  <b:if cond='data:widgets.Blog.first.headerByline'>
-    <div class='post-header'>
-      <div class='post-header-line-1'>
-        <b:with value='&quot;header-1&quot;' var='regionName'>
-          <b:include data='data:widgets.Blog.first.headerByline.items' name='bylineRegion'/>
-        </b:with>
-      </div>
-    </div>
-  </b:if>
-</b:includable>
-        <b:includable id='homePageLink'>
-  <a class='home-link' expr:href='data:blog.homepageUrl'>
-    <data:messages.home/>
-  </a>
-</b:includable>
-        <b:includable id='iframeComments' var='post'>
-  </b:includable>
-        <b:includable id='inlineAd' var='post'>
-  <b:if cond='!data:view.isPreview'>
-    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
-      <div class='inline-ad'>
-        <b:if cond='data:this.adCode != &quot;&quot;'>
-          <data:this.adCode/>
-        <b:else/>
-          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
-        </b:if>
-      </div>
-    </b:if>
-  <b:else/>
-    <div class='inline-ad'>
-      <div class='inline-ad-placeholder'>
-        <span><b:message name='messages.adsGoHere'/></span>
-      </div>
-    </div>
-  </b:if>
-</b:includable>
-        <b:includable id='linkShare'>
-  <b:with value='&quot;window.prompt(\&quot;Copy to clipboard: Ctrl+C, Enter\&quot;, \&quot;&quot; + data:originalUrl + &quot;\&quot;); return false;&quot;' var='onclick'>
-    <b:include name='platformShare'/>
-  </b:with>
-</b:includable>
-        <b:includable id='nextPageLink'>
-  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
-    <data:messages.olderPosts/>
-  </a>
-</b:includable>
-        <b:includable id='otherSharingButton'>
-  <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
-    <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
-      <b:include name='sharingPlatformIcon'/>
-    </b:with>
-    <span class='platform-sharing-text'><data:messages.shareOtherApps.escaped/></span>
-  </span>
-</b:includable>
-        <b:includable id='platformShare'>
-  <a expr:class='&quot;goog-inline-block sharing-&quot; + data:platform.key' expr:data-url='data:originalUrl' expr:href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:onclick='data:onclick ? data:onclick : &quot;&quot;' expr:title='data:platform.shareMessage' target='_blank'>
-    <span class='share-button-link-text'>
-      <data:platform.shareMessage/>
-    </span>
-  </a>
-</b:includable>
-        <b:includable id='post' var='post'>
-  <div class='post'>
-    <b:include data='post' name='postMeta'/>
-    <b:include data='post' name='postTitle'/>
-    <b:include name='headerByline'/>
-    <b:if cond='data:view.isSingleItem'>
-      <b:include data='post' name='postBody'/>
-    <b:else/>
-      <b:include data='post' name='postBodySnippet'/>
-      <b:include data='post' name='postJumpLink'/>
-    </b:if>
-    <b:include data='post' name='postFooter'/>
-  </div>
-</b:includable>
-        <b:includable id='postAuthor'>
-  <span class='byline post-author vcard'>
-    <span class='post-author-label'>
-      <data:byline.label/>
-    </span>
-    <span class='fn'>
-      <b:if cond='data:post.author.profileUrl'>
-        <meta expr:content='data:post.author.profileUrl'/>
-        <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
-          <span><data:post.author.name/></span>
-        </a>
-      <b:else/>
-        <span><data:post.author.name/></span>
-      </b:if>
-    </span>
-  </span>
-</b:includable>
-        <b:includable id='postBody' var='post'>
-  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
-    <data:post.body/>
-  </div>
-</b:includable>
-        <b:includable id='postBodySnippet' var='post'>
-  <b:include data='post' name='postBody'/>
-</b:includable>
-        <b:includable id='postCommentsAndAd' var='post'>
-  <article class='post-outer-container'>
-    <div class='post-outer'>
-      <b:include data='post' name='post'/>
+        <div class="swiper-button-next" style="color: white;"></div>
+        <div class="swiper-button-prev" style="color: white;"></div>
+        <div class="swiper-pagination"></div>
     </div>
 
-    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
-
-    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
-  </article>
-
-  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
-</b:includable>
-        <b:includable id='postCommentsLink'>
-  <b:if cond='data:view.isMultipleItems'>
-    <span class='byline post-comment-link container'>
-      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
-    </span>
-  </b:if>
-</b:includable>
-        <b:includable id='postFooter' var='post'>
-  <div class='post-footer'>
-    <b:include name='footerBylines'/>
-    <b:include data='post' name='postFooterAuthorProfile'/>
-  </div>
-</b:includable>
-        <b:includable id='postFooterAuthorProfile' var='post'>
-  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
-    <div class='author-profile'>
-      <b:if cond='data:post.author.authorPhoto.url'>
-        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
-        <div class='author-about'>
-          <b:include data='post' name='aboutPostAuthor'/>
-        </div>
-      <b:else/>
-        <b:include data='post' name='aboutPostAuthor'/>
-      </b:if>
-    </div>
-  </b:if>
-</b:includable>
-        <b:includable id='postHeader' var='post'>
-  <b:include name='headerByline'/>
-</b:includable>
-        <b:includable id='postJumpLink' var='post'>
-  <div class='jump-link flat-button'>
-    <a expr:href='data:post.url fragment &quot;more&quot;' expr:title='data:post.title'>
-      <b:eval expr='data:blog.jumpLinkMessage'/>
-    </a>
-  </div>
-</b:includable>
-        <b:includable id='postLabels'>
-  <span class='byline post-labels'>
-    <span class='byline-label'><data:byline.label/></span>
-    <b:loop index='i' values='data:post.labels' var='label'>
-      <a expr:href='data:label.url' rel='tag'>
-        <data:label.name/>
-      </a>
-    </b:loop>
-  </span>
-</b:includable>
-        <b:includable id='postLocation'>
-  <span class='byline post-location'>
-    <data:byline.label/>
-    <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
-  </span>
-</b:includable>
-        <b:includable id='postMeta' var='post'>
-  <b:include data='post' name='postMetadataJSON'/>
-</b:includable>
-        <b:includable id='postMetadataJSONImage'>
-  &quot;image&quot;: {
-    &quot;@type&quot;: &quot;ImageObject&quot;,
-    <b:if cond='data:post.featuredImage.isResizable'>
-    &quot;url&quot;: &quot;<b:eval expr='resizeImage(data:post.featuredImage, 1200, &quot;1200:630&quot;)'/>&quot;,
-    &quot;height&quot;: 630,
-    &quot;width&quot;: 1200
-    <b:else/>
-    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/w1200/&quot;,
-    &quot;height&quot;: 348,
-    &quot;width&quot;: 1200
-    </b:if>
-  },
-</b:includable>
-        <b:includable id='postMetadataJSONPublisher'>
- &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;Blogger&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/h60/&quot;,
-      &quot;width&quot;: 206,
-      &quot;height&quot;: 60
-    }
-  },
-</b:includable>
-        <b:includable id='postPagination'>
-  <div class='blog-pager container' id='blog-pager'>
-    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
-    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
-    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
-  </div>
-</b:includable>
-        <b:includable id='postReactions'>
-  </b:includable>
-        <b:includable id='postShareButtons'>
-  <div class='byline post-share-buttons goog-inline-block'>
-    <b:with value='data:sharingId ?: ((data:widget.instanceId ?: &quot;sharing&quot;) + &quot;-&quot; + (data:regionName ?: &quot;byline&quot;) + &quot;-&quot; + data:post.id)' var='sharingId'>
-      <b:include data='{                                                 sharingId: data:sharingId,                                                 originalUrl: data:post.url,                                                 platforms: data:this.sharing.platforms,                                                 shareUrl: data:post.shareUrl,                                                 shareTitle: data:post.title,                                               }' name='sharingButtons'/>
-    </b:with>
-  </div>
-</b:includable>
-        <b:includable id='postTimestamp'>
-  <span class='byline post-timestamp'>
-    <data:byline.label/>
-    <b:if cond='data:post.url'>
-      <meta expr:content='data:post.url.canonical'/>
-      <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
-        <time class='published' expr:datetime='data:post.date.iso8601' expr:title='data:post.date.iso8601'>
-          <data:post.date/>
-        </time>
-      </a>
-    </b:if>
-  </span>
-</b:includable>
-        <b:includable id='postTitle' var='post'>
-  <a expr:name='data:post.id'/>
-  <b:if cond='data:post.title != &quot;&quot;'>
-    <h3 class='post-title entry-title'>
-      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
-        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
-      <b:else/>
-        <data:post.title/>
-      </b:if>
-    </h3>
-  </b:if>
-</b:includable>
-        <b:includable id='previousPageLink'>
-  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
-    <data:messages.newerPosts/>
-  </a>
-</b:includable>
-        <b:includable id='sharingButton'>
-  <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
-    <b:include name='sharingPlatformIcon'/>
-    <span class='platform-sharing-text'><data:platform.name/></span>
-  </span>
-</b:includable>
-        <b:includable id='sharingButtonContent'>
-  <div class='flat-icon-button ripple'>
-    <b:include name='shareIcon'/>
-  </div>
-</b:includable>
-        <b:includable id='sharingButtons'>
-  <div class='sharing' expr:aria-owns='&quot;sharing-popup-&quot; + data:sharingId' expr:data-title='data:shareTitle'>
-    <button class='sharing-button touch-icon-button' expr:aria-controls='&quot;sharing-popup-&quot; + data:sharingId' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-button-&quot; + data:sharingId' role='button'>
-      <b:include name='sharingButtonContent'/>
-    </button>
-    <b:include name='sharingButtonsMenu'/>
-  </div>
-</b:includable>
-        <b:includable id='sharingButtonsMenu'>
-  <div class='share-buttons-container'>
-    <ul aria-hidden='true' class='share-buttons hidden' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-popup-&quot; + data:sharingId' role='menu'>
-      <b:loop values='(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})' var='platform'>
-        <li>
-          <b:include name='sharingButton'/>
-        </li>
-      </b:loop>
-      <li aria-hidden='true' class='hidden'>
-        <b:include name='otherSharingButton'/>
-      </li>
-    </ul>
-  </div>
-</b:includable>
-        <b:includable id='sharingPlatformIcon'>
-  <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
-</b:includable>
-        <b:includable id='threadedCommentForm' var='post'>
-  <div class='comment-form'>
-    <a name='comment-form'/>
-    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
-    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
-      <p><data:this.messages.blogComment/></p>
-    </b:if>
-    <b:include data='post' name='commentFormIframeSrc'/>
-    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
-    <data:post.cmtfpIframe/>
-    <script type='text/javascript'>
-      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
-    </script>
-  </div>
-</b:includable>
-        <b:includable id='threadedCommentJs' var='post'>
-  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
-  <b:template-script inline='true' name='threaded_comments'/>
-  <script type='text/javascript'>
-    blogger.widgets.blog.initThreadedComments(
-        <data:post.commentJso/>,
-        <data:post.commentMsgs/>,
-        <data:post.commentConfig/>);
-  </script>
-</b:includable>
-        <b:includable id='threadedComments' var='post'>
-  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
-    <a name='comments'/>
-
-    <b:include name='commentsTitle'/>
-
-    <div class='comments-content'>
-      <b:if cond='data:post.embedCommentForm'>
-        <b:include data='post' name='threadedCommentJs'/>
-      </b:if>
-      <div id='comment-holder'>
-         <data:post.commentHtml/>
-      </div>
-    </div>
-
-    <p class='comment-footer'>
-      <b:if cond='data:post.allowNewComments'>
-        <b:include data='post' name='threadedCommentForm'/>
-      <b:else/>
-        <data:post.noNewCommentsText/>
-      </b:if>
-      <b:if cond='data:post.showManageComments'>
-        <b:include data='post' name='manageComments'/>
-      </b:if>
-    </p>
-
-    <b:if cond='data:showCmtPopup'>
-      <div id='comment-popup'>
-        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
-        </iframe>
-      </div>
-    </b:if>
-  </section>
-</b:includable>
-        <b:includable id='tooltipCss'>
-  <style>
-    .post-body a.b-tooltip-container {
-      position: relative;
-      display: inline-block;
-    }
-
-    .post-body a.b-tooltip-container .b-tooltip {
-      display: block !important;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translate(-20%, 1px);
-      visibility: hidden;
-      opacity: 0;
-      z-index: 1;
-      transition: opacity 0.2s ease-in-out;
-    }
-
-    .post-body a.b-tooltip-container .b-tooltip iframe {
-      width: 200px;
-      height: 198px;
-      max-width: none;
-      border: none;
-      border-radius: 20px;
-      box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
-    }
-
-    @media (hover: hover) {
-      .post-body a.b-tooltip-container:hover .b-tooltip {
-        visibility: visible;
-        opacity: 1;
-      }
-    }
-  </style>
-  </b:includable>
-      </b:widget>
-    </b:section>
-
-    <div class='swiper hero-slider'>
-        <div class='swiper-wrapper'>
-            <div class='swiper-slide'><img alt='Slide 1' src='https://sure60gurukul.com/wp-content/uploads/2026/06/gurukul-stars-of-cpo-2024.png.webp'/></div>
-            <div class='swiper-slide'><img alt='Slide 2' src='https://sure60gurukul.com/wp-content/uploads/2025/06/00002.jpg'/></div>
-            <div class='swiper-slide'><img alt='Slide 3' src='https://sure60gurukul.com/wp-content/uploads/2025/06/00003.jpg'/></div>
-        </div>
-        <div class='swiper-button-next' style='color: white;'/>
-        <div class='swiper-button-prev' style='color: white;'/>
-        <div class='swiper-pagination'/>
-    </div>
-
-    <div class='exams-section'>
-        <div class='container'>
-            <div class='section-title'>
+    <div class="exams-section">
+        <div class="container">
+            <div class="section-title">
                 <h2>Exams We Prepare You For</h2>
-                <div class='section-divider'/>
-                <p class='section-subtitle'>We provide dedicated coaching, test series, and mentorship for a wide range of competitive examinations.</p>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">We provide dedicated coaching, test series, and mentorship for a wide range of competitive examinations.</p>
             </div>
-            <div class='exams-grid'>
-                <div class='exam-card'>
-                    <h3><i class='fa fa-graduation-cap'/> SSC Exams</h3>
+            <div class="exams-grid">
+                <div class="exam-card">
+                    <h3><i class="fa fa-graduation-cap"></i> SSC Exams</h3>
                     <ul>
-                        <li><i class='fa fa-check'/> SSC CGL (Foundation &amp; Selection)</li>
-                        <li><i class='fa fa-check'/> SSC CPO (Sub-Inspector)</li>
-                        <li><i class='fa fa-check'/> SSC CHSL (10+2)</li>
-                        <li><i class='fa fa-check'/> SSC MTS</li>
-                        <li><i class='fa fa-check'/> SSC Stenographer</li>
-                        <li><i class='fa fa-check'/> SSC GD Constable</li>
-                        <li><i class='fa fa-check'/> SSC Selection Post</li>
+                        <li><i class="fa fa-check"></i> SSC CGL (Foundation &amp; Selection)</li>
+                        <li><i class="fa fa-check"></i> SSC CPO (Sub-Inspector)</li>
+                        <li><i class="fa fa-check"></i> SSC CHSL (10+2)</li>
+                        <li><i class="fa fa-check"></i> SSC MTS</li>
+                        <li><i class="fa fa-check"></i> SSC Stenographer</li>
+                        <li><i class="fa fa-check"></i> SSC GD Constable</li>
+                        <li><i class="fa fa-check"></i> SSC Selection Post</li>
                     </ul>
                 </div>
-                <div class='exam-card'>
-                    <h3><i class='fa fa-shield-alt'/> Defence Exams</h3>
+                <div class="exam-card">
+                    <h3><i class="fa fa-shield-alt"></i> Defence Exams</h3>
                     <ul>
-                        <li><i class='fa fa-check'/> NDA (Including 9th &amp; 10th Schooling)</li>
-                        <li><i class='fa fa-check'/> CDS (Combined Defence Services)</li>
-                        <li><i class='fa fa-check'/> AFCAT</li>
-                        <li><i class='fa fa-check'/> SSB Interview Preparation</li>
-                        <li><i class='fa fa-check'/> Personality Development</li>
+                        <li><i class="fa fa-check"></i> NDA (Including 9th &amp; 10th Schooling)</li>
+                        <li><i class="fa fa-check"></i> CDS (Combined Defence Services)</li>
+                        <li><i class="fa fa-check"></i> AFCAT</li>
+                        <li><i class="fa fa-check"></i> SSB Interview Preparation</li>
+                        <li><i class="fa fa-check"></i> Personality Development</li>
                     </ul>
                 </div>
-                <div class='exam-card'>
-                    <h3><i class='fa fa-train'/> Railway Exams</h3>
+                <div class="exam-card">
+                    <h3><i class="fa fa-train"></i> Railway Exams</h3>
                     <ul>
-                        <li><i class='fa fa-check'/> RRB NTPC</li>
-                        <li><i class='fa fa-check'/> RRB ALP (Assistant Loco Pilot)</li>
-                        <li><i class='fa fa-check'/> RRB Group D</li>
-                        <li><i class='fa fa-check'/> RRB JE (Junior Engineer)</li>
-                        <li><i class='fa fa-check'/> RRB RPF (Railway Police Force)</li>
+                        <li><i class="fa fa-check"></i> RRB NTPC</li>
+                        <li><i class="fa fa-check"></i> RRB ALP (Assistant Loco Pilot)</li>
+                        <li><i class="fa fa-check"></i> RRB Group D</li>
+                        <li><i class="fa fa-check"></i> RRB JE (Junior Engineer)</li>
+                        <li><i class="fa fa-check"></i> RRB RPF (Railway Police Force)</li>
                     </ul>
                 </div>
-                <div class='exam-card'>
-                    <h3><i class='fa fa-landmark'/> State &amp; Teaching</h3>
+                <div class="exam-card">
+                    <h3><i class="fa fa-landmark"></i> State &amp; Teaching</h3>
                     <ul>
-                        <li><i class='fa fa-check'/> Delhi Police (Constable &amp; SI)</li>
-                        <li><i class='fa fa-check'/> UP Police / Haryana Police</li>
-                        <li><i class='fa fa-check'/> DSSSB / CET Exams</li>
-                        <li><i class='fa fa-check'/> Teaching: PRT / TGT / PGT</li>
-                        <li><i class='fa fa-check'/> TET / CTET / STET</li>
-                        <li><i class='fa fa-check'/> Patwari / LDC / UDC</li>
+                        <li><i class="fa fa-check"></i> Delhi Police (Constable &amp; SI)</li>
+                        <li><i class="fa fa-check"></i> UP Police / Haryana Police</li>
+                        <li><i class="fa fa-check"></i> DSSSB / CET Exams</li>
+                        <li><i class="fa fa-check"></i> Teaching: PRT / TGT / PGT</li>
+                        <li><i class="fa fa-check"></i> TET / CTET / STET</li>
+                        <li><i class="fa fa-check"></i> Patwari / LDC / UDC</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class='facilities-section'>
-        <div class='container'>
-            <div class='section-title'>
+    <div class="facilities-section">
+        <div class="container">
+            <div class="section-title">
                 <h2>Our Campus &amp; Facilities</h2>
-                <div class='section-divider' style='background:#fff;'/>
-                <p class='section-subtitle'>Experience a fully residential, disciplined, and distraction-free environment designed exclusively for aspirants.</p>
+                <div class="section-divider" style="background:#fff;"></div>
+                <p class="section-subtitle">Experience a fully residential, disciplined, and distraction-free environment designed exclusively for aspirants.</p>
             </div>
             
-            <div class='facilities-grid'>
-                <div class='facility-card'>
-                    <i class='fa fa-building'/>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <i class="fa fa-building"></i>
                     <div>
                         <h3>Fully Residential Campus</h3>
                         <p>Everything under one roof. Clean and secure hostel rooms separating focus areas from resting areas. Perfect environment cheaper than staying in Delhi.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-book-reader'/>
+                <div class="facility-card">
+                    <i class="fa fa-book-reader"></i>
                     <div>
                         <h3>24/7 Reading Library</h3>
                         <p>Fully Air-Conditioned, pin-drop silence library environment designed for 10-12 hour daily study challenges.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-utensils'/>
+                <div class="facility-card">
+                    <i class="fa fa-utensils"></i>
                     <div>
                         <h3>Mess &amp; Dining Area</h3>
                         <p>Hygienic, nutritious, and timely meals including Breakfast, Lunch, Evening Tea, and Dinner to keep you fueled.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-chalkboard-teacher'/>
+                <div class="facility-card">
+                    <i class="fa fa-chalkboard-teacher"></i>
                     <div>
                         <h3>Smart Classrooms</h3>
                         <p>Modern, tech-enabled classrooms with digital boards for an interactive and engaging learning experience.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-dumbbell'/>
+                <div class="facility-card">
+                    <i class="fa fa-dumbbell"></i>
                     <div>
                         <h3>Sports &amp; Gym Facilities</h3>
                         <p>Cricket ground, Volleyball courts, Badminton courts, and a fully equipped Gym to maintain physical fitness and mental health.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-running'/>
+                <div class="facility-card">
+                    <i class="fa fa-running"></i>
                     <div>
                         <h3>GTO Ground &amp; Physical Training</h3>
                         <p>Structured physical training sessions conducted by certified instructors, crucial for Defence, Police, and CPO aspirants.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-desktop'/>
+                <div class="facility-card">
+                    <i class="fa fa-desktop"></i>
                     <div>
                         <h3>Computer Lab</h3>
                         <p>Dedicated computer labs for taking online mock tests in a real-time exam-simulated environment.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-video'/>
+                <div class="facility-card">
+                    <i class="fa fa-video"></i>
                     <div>
                         <h3>CCTV &amp; Strict Discipline</h3>
-                        <p>24/7 CCTV surveillance, biometric attendance, and a strict &quot;Mobile Deposit System&quot; during study hours to ensure zero distractions.</p>
+                        <p>24/7 CCTV surveillance, biometric attendance, and a strict "Mobile Deposit System" during study hours to ensure zero distractions.</p>
                     </div>
                 </div>
-                <div class='facility-card'>
-                    <i class='fa fa-comments'/>
+                <div class="facility-card">
+                    <i class="fa fa-comments"></i>
                     <div>
                         <h3>Doubt Clearing &amp; Mentorship</h3>
                         <p>Dedicated doubt-clearing rooms and one-on-one personalized mentorship sessions with expert faculty.</p>
@@ -1006,147 +326,149 @@
         </div>
     </div>
 
-    <div class='container'>
-        <div class='section-title'>
+    <div class="container">
+        <div class="section-title">
             <h2>Our Teaching Methodology</h2>
-            <div class='section-divider'/>
+            <div class="section-divider"></div>
         </div>
 
-        <div class='features-grid'>
-            <div class='feature-card'>
-                <img alt='Expert Faculty' src='https://sure60gurukul.com/wp-content/uploads/2025/03/Group-7-2.png'/>
+        <div class="features-grid">
+            <div class="feature-card">
+                <img alt="Expert Faculty" src="https://sure60gurukul.com/wp-content/uploads/2025/03/Group-7-2.png"/>
                 <h3>Expert Faculty</h3>
                 <p>Highly experienced educators delivering detailed subject-wise coaching (Quant, Reasoning, English, GS).</p>
             </div>
-            <div class='feature-card'>
-                <img alt='Study Material' src='https://sure60gurukul.com/wp-content/uploads/2025/03/Group-7-1.png'/>
+            <div class="feature-card">
+                <img alt="Study Material" src="https://sure60gurukul.com/wp-content/uploads/2025/03/Group-7-1.png"/>
                 <h3>Shortcut Techniques</h3>
                 <p>Exclusive tricks and proven strategies to solve complex mathematical and reasoning problems quickly.</p>
             </div>
-            <div class='feature-card'>
-                <img alt='Mock Tests' src='https://sure60gurukul.com/wp-content/uploads/2025/03/Group-1-4.png'/>
+            <div class="feature-card">
+                <img alt="Mock Tests" src="https://sure60gurukul.com/wp-content/uploads/2025/03/Group-1-4.png"/>
                 <h3>Daily Practice Sessions</h3>
                 <p>Regular daily tests, previous year paper analysis, and weekly revision exams to track continuous progress.</p>
             </div>
-            <div class='feature-card'>
-                <img alt='Mentorship' src='https://sure60gurukul.com/wp-content/uploads/2025/03/Group-2-2.png'/>
+            <div class="feature-card">
+                <img alt="Mentorship" src="https://sure60gurukul.com/wp-content/uploads/2025/03/Group-2-2.png"/>
                 <h3>Live &amp; Recorded Access</h3>
                 <p>Missed a class? Get live interactive sessions with immediate access to recorded lectures via our Android App.</p>
             </div>
         </div>
     </div>
 
-    <div class='carousel-section' style='background:#f9f9f9;'>
-        <div class='container'>
-            <div class='section-title'>
+    <div class="carousel-section" style="background:#f9f9f9;">
+        <div class="container">
+            <div class="section-title">
                 <h2>What Our Selections Say</h2>
-                <div class='section-divider'/>
+                <div class="section-divider"></div>
             </div>
-            <div class='swiper testimonial-slider'>
-                <div class='swiper-wrapper'>
-                    <div class='swiper-slide'>
-                        <div class='testimonial-card'>
+            <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
                             <h3>Inspector Abhinav Panchal</h3>
-                            <p>&quot;I came to Gurukul in 2019 and finished all renowned books with their assignments 2-3 times. I got selected as Excise Inspector. Hats off Sure 60.&quot;</p>
-                            <span style='color:#FFD700;'><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/></span>
+                            <p>"I came to Gurukul in 2019 and finished all renowned books with their assignments 2-3 times. I got selected as Excise Inspector. Hats off Sure 60."</p>
+                            <span style="color:#FFD700;"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                         </div>
                     </div>
-                    <div class='swiper-slide'>
-                        <div class='testimonial-card'>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
                             <h3>Mohit Tiwari</h3>
-                            <p>&quot;Best place to prepare for any competitive exam. Cheaper than staying in Delhi. Management makes sure that you study for 10-12 hours per day.&quot;</p>
-                            <span style='color:#FFD700;'><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/></span>
+                            <p>"Best place to prepare for any competitive exam. Cheaper than staying in Delhi. Management makes sure that you study for 10-12 hours per day."</p>
+                            <span style="color:#FFD700;"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                         </div>
                     </div>
-                    <div class='swiper-slide'>
-                        <div class='testimonial-card'>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
                             <h3>Aditya Mehta</h3>
-                            <p>&quot;The sessions are full of energy. The mobile deposit system and 12-hour study challenge changed my life. I&#8217;ve seen real change in my confidence.&quot;</p>
-                            <span style='color:#FFD700;'><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/><i class='fa fa-star'/></span>
+                            <p>"The sessions are full of energy. The mobile deposit system and 12-hour study challenge changed my life. I’ve seen real change in my confidence."</p>
+                            <span style="color:#FFD700;"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
                         </div>
                     </div>
                 </div>
-                <div class='swiper-pagination'/>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
 
-    <footer class='site-footer'>
-        <div class='container'>
-            <div class='footer-grid'>
-                <div class='footer-col'>
-                    <img alt='Logo' src='https://sure60gurukul.com/wp-content/uploads/2025/03/Group-1-2.png' style='width: 200px; filter: brightness(0) invert(1); margin-bottom: 20px;'/>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img alt="Logo" src="https://sure60gurukul.com/wp-content/uploads/2025/03/Group-1-2.png" style="width: 200px; filter: brightness(0) invert(1); margin-bottom: 20px;"/>
                     <p>Nurturing and creating love for learning in the young minds so as to enable to achieve wisdom. We are committed to inspiring and nurturing confident generations through rigorous discipline and top-tier education.</p>
                 </div>
-                <div class='footer-col'>
+                <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href='#'>About Us</a></li>
-                        <li><a href='#'>Chairman&#39;s Message</a></li>
-                        <li><a href='#'>Online Admissions Form</a></li>
-                        <li><a href='#'>Fee Payment</a></li>
-                        <li><a href='#'>Cancellation &amp; Refund Policy</a></li>
+                        <li><a href="#" target="_blank">About Us</a></li>
+                        <li><a href="#" target="_blank">Chairman's Message</a></li>
+                        <li><a href="#" target="_blank">Online Admissions Form</a></li>
+                        <li><a href="#" target="_blank">Fee Payment</a></li>
+                        <li><a href="#" target="_blank">Cancellation &amp; Refund Policy</a></li>
                     </ul>
                 </div>
-                <div class='footer-col'>
+                <div class="footer-col">
                     <h3>Courses</h3>
                     <ul>
-                        <li><a href='#'>SSC Coaching (CGL, CHSL, CPO)</a></li>
-                        <li><a href='#'>Defense Coaching (NDA, CDS)</a></li>
-                        <li><a href='#'>Railway Coaching (NTPC, ALP)</a></li>
-                        <li><a href='#'>State Police &amp; Teaching Exams</a></li>
+                        <li><a href="#" target="_blank">SSC Coaching (CGL, CHSL, CPO)</a></li>
+                        <li><a href="#" target="_blank">Defense Coaching (NDA, CDS)</a></li>
+                        <li><a href="#" target="_blank">Railway Coaching (NTPC, ALP)</a></li>
+                        <li><a href="#" target="_blank">State Police &amp; Teaching Exams</a></li>
                     </ul>
                 </div>
-                <div class='footer-col'>
+                <div class="footer-col">
                     <h3>Contact Us</h3>
-                    <ul style='list-style: none; padding: 0;'>
-                        <li style='display: flex; gap: 10px; align-items: start; margin-bottom: 15px;'>
-                            <i class='fa fa-map-marker-alt' style='margin-top: 5px;'/>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="display: flex; gap: 10px; align-items: start; margin-bottom: 15px;">
+                            <i class="fa fa-map-marker-alt" style="margin-top: 5px;"></i>
                             <span>Sure 60 Gurukul, HEALIN- Institute of Medical Sciences Murthal, Sonipat, Haryana 131039</span>
                         </li>
-                        <li style='display: flex; gap: 10px; align-items: center; margin-bottom: 15px;'>
-                            <i class='fa fa-phone'/>
-                            <a href='#'>+91 7289003333</a>
+                        <li style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
+                            <i class="fa fa-phone"></i>
+                            <a href="#" target="_blank">+91 7289003333</a>
                         </li>
-                        <li style='display: flex; gap: 10px; align-items: center;'>
-                            <i class='fa fa-envelope'/>
-                            <a href='#'>sure60onlineclass@gmail.com</a>
+                        <li style="display: flex; gap: 10px; align-items: center;">
+                            <i class="fa fa-envelope"></i>
+                            <a href="#" target="_blank">sure60onlineclass@gmail.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class='footer-bottom'>
-                <p>&#169; Copyright 2026 Ankit Panwar | All Rights Reserved</p>
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2026 Ankit Panwar | All Rights Reserved</p>
             </div>
         </div>
     </footer>
 
-    <a class='floating-btn btn-call' href='#' title='Call Us'><i class='fa fa-phone'/></a>
-    <a class='floating-btn btn-whatsapp' href='#' title='WhatsApp Us'><i class='fa-brands fa-whatsapp'/></a>
-    <a class='floating-btn btn-admission' href='#' title='Admission'>Admission Enquiry</a>
+    <a class="floating-btn btn-call" href="#" title="Call Us"><i class="fa fa-phone"></i></a>
+    <a class="floating-btn btn-whatsapp" href="#" title="WhatsApp Us"><i class="fa-brands fa-whatsapp"></i></a>
+    <a class="floating-btn btn-admission" href="#" title="Admission">Admission Enquiry</a>
 
-    <script src='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js'/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
-        // Hero Slider
-        var heroSwiper = new Swiper(&#39;.hero-slider&#39;, {
-            loop: true,
-            autoplay: { delay: 4000, disableOnInteraction: false },
-            pagination: { el: &#39;.swiper-pagination&#39;, clickable: true },
-            navigation: { nextEl: &#39;.swiper-button-next&#39;, prevEl: &#39;.swiper-button-prev&#39; },
-        });
+        if (document.querySelector('.hero-slider')) {
+            var heroSwiper = new Swiper('.hero-slider', {
+                loop: true,
+                autoplay: { delay: 4000, disableOnInteraction: false },
+                pagination: { el: '.swiper-pagination', clickable: true },
+                navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+            });
+        }
 
-        // Testimonial Slider
-        var testimonialSwiper = new Swiper(&#39;.testimonial-slider&#39;, {
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 30,
-            autoplay: { delay: 5000 },
-            pagination: { el: &#39;.swiper-pagination&#39;, clickable: true },
-            breakpoints: {
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-            }
-        });
+        if (document.querySelector('.testimonial-slider')) {
+            var testimonialSwiper = new Swiper('.testimonial-slider', {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 30,
+                autoplay: { delay: 5000 },
+                pagination: { el: '.swiper-pagination', clickable: true },
+                breakpoints: {
+                    768: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                }
+            });
+        }
     </script>
 </body>
 </html>
